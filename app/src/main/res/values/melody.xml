@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emoji_melody">
+    <item>{
+        "emoji":"🕺",
+        "answer":\"майкл джексон\",
+        "title":"певец"
+        }
+    </item>
+        <item>{
+        "emoji":"🕺",
+        "answer":"bitch",
+        "title":"певец"
+        }
+    </item>
+    </string-array>
+</resources>

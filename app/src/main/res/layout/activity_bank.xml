@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.batmad.quizsmile.BankActivity">
+
+    <Button
+        android:id="@+id/bank_money_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/buy_coins_title"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bank_money_btn" />
+
+    <Button
+        android:id="@+id/buy_coin_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_1"
+        android:onClick="BuyCoin1"
+        style="@style/startCustomBtn"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buy_coin_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_2"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:onClick="BuyCoin2"
+        style="@style/startCustomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/buy_coin_1"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/buy_coin_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_3"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:onClick="BuyCoin3"
+        style="@style/startCustomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/buy_coin_2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/buy_coin_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_4"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:onClick="BuyCoin4"
+        style="@style/startCustomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/buy_coin_3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/buy_coin_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_5"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:onClick="BuyCoin5"
+        style="@style/startCustomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/buy_coin_4"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/buy_coin_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_coin_free"
+        android:textAppearance="@style/ShadowText"
+        android:layout_marginTop="8dp"
+        android:onClick="BuyCoinFree"
+        style="@style/startCustomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/buy_coin_5"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

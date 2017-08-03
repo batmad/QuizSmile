@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emoji_country">
+        <item>{
+            "emoji":"🇺🇸",
+            "answer":"США",
+            "title":"страна"
+            }
+        </item>
+        <item>{
+            "emoji":"🇷🇺",
+            "answer":"россия",
+            "title":"страна"
+            }
+        </item>
+    </string-array>
+</resources>

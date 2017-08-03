@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emojis">
+        <item>{
+            "emoji":"👨‍💼🦇",
+            "answer":"бэтмен",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":"👮🤖",
+            "answer":"робокоп",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"🚢💥⛰",
+            "answer":"титаник",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"👨🕷",
+            "answer":\"человек паук\",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":"😎🤖",
+            "answer":"терминатор",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"👦⚡👓",
+            "answer":\"гарри поттер\",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":\"👨‍🔬➡😠➡ 👊🤢👊\",
+            "answer":"халк",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":"🤠🤠⛰",
+            "answer":\"горбатая гора\",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"🤡🎈",
+            "answer":"оно",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"🦁🐗🐿",
+            "answer":\"король лев\",
+            "title":"мультфильм"
+            }
+        </item>
+        <item>{
+            "emoji":"🤵🤖",
+            "answer":\"железный человек\",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":"👳🏻‍♀🌊🐅",
+            "answer":\"жизнь пи\",
+            "title":"фильм"
+            }
+        </item>
+        <item>{
+            "emoji":"👨🏻‍🎨🍏",
+            "answer":\"стив джобс\",
+            "title":"персонаж"
+            }
+        </item>
+        <item>{
+            "emoji":"🌌🤴🌔🌹",
+            "answer":\"маленький принц\",
+            "title":"книга"
+            }
+        </item>
+        <item>{
+            "emoji":"🌌",
+            "answer":"г",
+            "title":"тр"
+            }
+        </item>
+    </string-array>
+
+</resources>

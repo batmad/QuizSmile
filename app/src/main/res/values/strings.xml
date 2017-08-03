@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">QuizSmile</string>
+    <string name="ok">Ок</string>
+    <string name="no">Отмена</string>
+    <string name="try_later">Реклама не готова. Попробуйте позже</string>
+    <string name="notification">%1$s в слове - %2$s</string>
+    <string name="pig">🐷</string>
+    <string name="money_bag">💰</string>
+    <string name="open_word">Открыть букву🐣</string>
+    <string name="tips">Подсказка💡</string>
+
+    <string name="no_gold">Не хватает монет</string>
+
+    <string name="warning_ad">Смотреть рекламу или пропустить за %1$d монет?</string>
+    <string name="projector">📽</string>
+
+    <string name="prize">🏆</string>
+    <string name="win">Вы победили %1$d уровень!</string>
+    <string name="more_reward">Удвоить награду</string>
+
+    <string name="play_btn">Играть</string>
+    <string name="continue_btn">Продолжить</string>
+    <string name="buy_coins">Купить монеты</string>
+    <string name="genre_btn">Жанр</string>
+    <string name="settings_btn">⚙</string>
+
+    <string name="buy_coins_title">Купить монет 💰</string>
+    <string name="buy_coin_1">200 монет</string>
+    <string name="buy_coin_2">420 монет</string>
+    <string name="buy_coin_3">1100 монет</string>
+    <string name="buy_coin_4">2250 монет</string>
+    <string name="buy_coin_5">4600 монет</string>
+    <string name="buy_coin_free">бесплатно 10 монет</string>
+
+    <string name="common_game_btn">Обычная игра</string>
+    <string name="movies_btn">Фильмы</string>
+    <string name="countries_btn">Страны</string>
+    <string name="melody_btn">Музыка</string>
+
+    <string name="appodeal_key">eae5650a92a294c53097ad90f4ae3d57f4d6a2d69679a304</string>
+
+    <plurals name="words">
+        <item quantity="one">Первая буква</item>
+        <item quantity="two">Вторая буква</item>
+        <item quantity="few">Следующая буква</item>
+        <item quantity="other">Следующая буква</item>
+    </plurals>
+
+    <string-array name="alphabet">
+        <item>й</item>
+        <item>ц</item>
+        <item>у</item>
+        <item>к</item>
+        <item>е</item>
+        <item>н</item>
+        <item>г</item>
+        <item>ш</item>
+        <item>щ</item>
+        <item>з</item>
+        <item>х</item>
+        <item>ъ</item>
+        <item>ф</item>
+        <item>ы</item>
+        <item>в</item>
+        <item>а</item>
+        <item>п</item>
+        <item>р</item>
+        <item>о</item>
+        <item>л</item>
+        <item>д</item>
+        <item>ж</item>
+        <item>э</item>
+        <item>я</item>
+        <item>ч</item>
+        <item>с</item>
+        <item>м</item>
+        <item>и</item>
+        <item>т</item>
+        <item>ь</item>
+        <item>б</item>
+        <item>ю</item>
+    </string-array>
+</resources>
