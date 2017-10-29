@@ -37,8 +37,6 @@
     <string name="countries_btn">Страны</string>
     <string name="melody_btn">Музыка</string>
 
-    <string name="appodeal_key">eae5650a92a294c53097ad90f4ae3d57f4d6a2d69679a304</string>
-
     <plurals name="words">
         <item quantity="one">Первая буква</item>
         <item quantity="two">Вторая буква</item>
